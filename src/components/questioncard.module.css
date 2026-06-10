@@ -1,0 +1,45 @@
+.questionNo {
+  margin: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+.option {
+  display: block;
+  min-width: 500px;
+  padding: 14px 16px;
+  margin: 10px 0;
+  border-radius: 12px;
+  background: #8dd6fa;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: 0.2s;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+
+.option:hover {
+  background: #4a90e2;
+  color: white;
+}
+
+
+.option input {
+  accent-color: #4f8cff;
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+
+.selected {
+  background: #4f8cff;
+  color: white;
+  box-shadow: 0 6px 16px rgba(79, 140, 255, 0.4);
+  transform: scale(1.02);
+}
+
+.selected:hover {
+  background: #4f8cff;
+}
