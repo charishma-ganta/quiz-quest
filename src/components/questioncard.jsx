@@ -1,4 +1,4 @@
-import Timer from "./Timer";
+import Timer from "./timer";
 import styles from "./questioncard.module.css";
 
 export default function QuestionCard({questions,currentQuestion,answers,handleAnswer,setCurrentQuestion,score,selectedanswer}){
