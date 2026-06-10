@@ -1,5 +1,5 @@
 import { useLocation, useNavigate } from "react-router-dom";
-import QuestionCard from "../components/QuestionCard";
+import QuestionCard from "../components/questioncard";
 import {fetchQuestions} from "../services/api"
 import { useEffect, useMemo, useState } from "react";
 import styles from "./Quiz.module.css"; 
